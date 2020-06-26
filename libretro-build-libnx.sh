@@ -14,5 +14,5 @@ else
 	fi
 fi
 
-#  NOCLEAN=1 platform=vita ${BASE_DIR}/libretro-build.sh $@
-platform=vita ${BASE_DIR}/libretro-build.sh $@
+# NOCLEAN=1 platform=libnx ${BASE_DIR}/libretro-build.sh $@
+platform=libnx ${BASE_DIR}/libretro-build.sh $@
